@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<header>
+    <h1>Formulario de registro</h1>
+</header>
+<body>
+    <main>
+        <div class="form">
+            <form>
+                <label for="nombre">Nombre: 
+                    <input 
+                    type="text" 
+                    name="nombre" 
+                    placeholder="ingrese aquí su nombre">
+                </label>
+                <br><br>
+
+                <label for="apellido">Apellido:
+                    <input 
+                    type="text" 
+                    name="apellido" 
+                    placeholder="Ingrese aquí su nombre">
+                </label>
+                <br><br>
+
+                <label for="ondemand">Modalidad de Cursada: 
+                    <input 
+                    type="radio" 
+                    name="modalidad" 
+                    id="ondemand"
+                    checked>On-Demand
+                </label>
+
+                <label for="vivo">
+                    <input 
+                    type="radio" 
+                    name="modalidad" 
+                    id="vivo">En vivo
+                </label>
+                <br><br>
+
+                <label for="email">Correo: 
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Ingrese aquí su correo">
+                </label>
+                <br><br>
+
+                <label for="recibirinfo">
+                    <input 
+                    type="checkbox" 
+                    name="checkbox" 
+                    id="recibirinfo" 
+                    checked> Deseo recibir informacion sobre nuevos posteos en la plataforma de Nucba.
+                </label>
+                <br><br>
+
+                <label for="leiterminos">
+                    <input 
+                    type="checkbox" 
+                    name="checkbox" 
+                    id="leiterminos" 
+                    required> Declaro que leí los terminos y condiciones y estoy listo para convertirme en desarrolador web Full Stack.
+                </label>
+                <br><br>
+
+                <label for="submit">
+                    <input 
+                    type="submit" 
+                    value="Enviar">
+                </label>
+            </form>
+
+        </div>
+    </main>
+</body>
+</html>
